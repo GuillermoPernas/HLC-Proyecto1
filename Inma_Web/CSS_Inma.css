@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "letra";
+    src: url(Roboto/Roboto-Black.ttf);
+}
+
+h2 {
+    margin-bottom: 50px;
+    text-align: letra, sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    color: rgb(174, 59, 120);
+    
+ }
+h3 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    
+}
+h4 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    
+}
+
+
+/*Cuerpo de la página*/
+body {
+    background-color: rgb(153, 153, 153);
+}
+
+
+section img {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+
+
+/*Sección*/
+section {
+    margin: 50px;
+    border: 8px double #888;
+    border-radius: 200px 50px 200px 50px;
+    padding: 80px;
+    background-color: #ccc;
+}
+
+/*Artículo*/
+article {
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background:#925178;
+    padding: 20px;
+    margin: 0 0 25px;
+    overflow: visible;
+    border-radius: 35px 0px 35px 0px;
+   
+}
+
+p{
+    text-align: center;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+#link{
+    text-align: center;
+}
