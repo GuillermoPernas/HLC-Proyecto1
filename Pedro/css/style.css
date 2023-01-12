@@ -15,7 +15,7 @@ section{
     border-color: black;
 }
 
-article > h1{
+h2{
     font-family: MiFuente, Arial, sans-serif;
     background-color: rgb(247,224,24);
     color: black;
@@ -31,7 +31,7 @@ article > h1{
     text-align: center;
 }
 
-h2, h3{
+h3{
     font-family: MiFuente, Arial, sans-serif;
     color: rgba(247,224,24,255);
     word-spacing: 0.2cm;
