@@ -3,17 +3,67 @@
     src: url(../fonts/Mohave-Regular.ttf);
 }
 
-section{
-    background-color: coral;
+.container{
+    width: 90%;
 }
 
-h1, h2, h3{
+section{
+    background-color: rgba(247,224,24,255);
+    border-radius: 10px;
+}
+
+article > h1{
     font-family: MiFuente, Arial, sans-serif;
+    background-color: rgba(247,224,24,255);
     color: black;
-    word-spacing: 0.5cm;
-    font-weight: 500;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: red;
+    text-align: center;
+}
+
+h2, h3{
+    font-family: MiFuente, Arial, sans-serif;
+    color: rgba(247,224,24,255);
+    word-spacing: 0.2cm;
     text-align: center;
     margin: auto;
-    margin-top: 200mm;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
+p{
+    color: rgba(247,224,24,255);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+article{
+    margin-top: 20px;
+    background-color: black;
+    border-width: 100px;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.parrafo > ul{
+    color: rgba(247,224,24,255);
+    margin-left: 150px;
+    text-align: left;
+}
+
+img{
+    width: 10%;
+}
+
+.parrafo{
+    margin-bottom: 20px;
+    border-width: 200px;
+    border-color: black;
+    border-radius: 10px;
+}
