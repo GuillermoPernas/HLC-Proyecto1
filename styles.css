@@ -67,7 +67,7 @@ header {
 aside {
     width: 20%;
     padding-left: 15px;
-    margin: 200px 50px 0 0;
+    margin: 220px 50px 0 0;
     margin-right:50px;
     margin-right:50px;
     float: right;
@@ -82,7 +82,7 @@ aside {
 /*Sección*/
 #seccion-main {
     width: 70%;
-    margin: 200px 0 200px 50px;
+    margin: 220px 0 280px 50px;
     border: 8px double #888;
     border-radius: 200px 50px 200px 50px;
     padding: 80px;
