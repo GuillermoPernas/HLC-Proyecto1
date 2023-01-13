@@ -57,53 +57,50 @@
             </p>
         </article>
         <article>
-            <h2>How Git works</h2>
-            <p>Basically Git works as follows:</p>
+            <h2>Como funciona Github</h2>
+            <p>Funciona de la siguiente manera:</p>
             <ol>
-                <li>Create a "repository" (project) with a Git hosting tool (eg Bitbucket)</li>
-                <li>Copy (or clone) the repository to your local machine</li>
-                <li>Add a file to your local repository and commit the changes</li>
-                <li>Push changes to the main branch</li>
-                <li>Make changes to your file with a Git hosting tool and commit them</li>
-                <li>Extract ("pull") the changes to your local machine</li>
-                <li>Create a branch ("branch", version), make a change and confirm it</li>
-                <li>Open a pull request ("pull request": propose changes to the main branch)</li>
-                <li>Merge your branch with the main branch</li>
+                <li>Crea un "repositorio" (proyecto) usando una herramienta de hosteo</li>
+                <li>Copia (clone) el repositorio a tu maquina local</li>
+                <li>Añade un archivo a tu repositorio local y crea una "instantanea"(commit, confirmacion) de los cambios</li>
+                <li>"Sube" (push) los cambios a la rama principal</li>
+                <li>Haz cambios a tus ficheros con un editor compatible con Git y subelos</li>
+                <li>Extrae (pull) los cambios a tu maquina local</li>
+                <li>Crea una rama (branch), realiza cambios y subelos</li>
+                <li>Abre una solicitud de subida (pull request: sugiere cambios sobre la rama principal)</li>
+                <li>Combina (merge) tu rama con la rama principal</li>
             </ol>
         </article>
         <article>
-            <h2>Learning to use <a href="https://github.com/">GitHub</a></h2>
-            <ul><li><h3>Create a GitHub repository</h3></li></ul>
+            <h2>Aprendiendo a usar <a href="https://github.com/">GitHub</a></h2>
+            <ul><li><h3>Crear un repositorio GitHub</h3></li></ul>
             <p>
-                A repository will be the central axis of your project. It can be a file or a collection 
-                of files containing code, images, text, or anything else.
-                To start the process, follow these steps:
+                El repositorio sera el eje central de tu proyecto. Puede ser un archivo o conjunto de archivos
+                contenedores de codigo, imagenes, texto, o otras cosas. Para comenzar el proceso, sigue estos pasos:
             </p>
                 <ol>
-                    <li>Click Create a repository to start a new project.</li>
+                    <li>Haz click en crear un repositorio para iniciar un nuevo proyectos</li>
                 </ol>
                     <img src="img/create-repository-step-1-github.png" width="600" alt="create repository step one"/>
                 <ol start="2">
-                    <li>The Owner section will already have your account name. Create a repository name. 
-                        Check if it's set to Public to be open source, and then check the Add a 
-                        README file box. Finally, click Create repository.</li>
+                    <li>La seccion del propietario tendra tu nombre de usuario. Crea un nombre para el repositorio.
+                        Comprueba que estge definido como Publico para hacerlo de codigo abierto, y marca la opcion de añadir
+                        archivo README. Por ultimo haz click en crear repositorio.</li>
                 </ol>
                 <img src="img/create-repository-github.png" width="600" alt="create repository"/>
             
             
-            <ul><li><h3>Create branches on GitHub</h3></li></ul>
+            <ul><li><h3>Crrando ramas en GitHub</h3></li></ul>
             <p>
-                With branching, you generate different versions of a repository. By making changes to 
-                the project in the feature branch, a developer can see how it will affect the master 
-                project when integrated.
-                This is how you can generate a feature branch:
-                Go to your new repository. Hit the main button and enter the name of your new 
-                feature branch. Click Create branch.
+                Con las ramas, generas diferentes versiones de un repositorio. Haciendo cambios en el proyecto sobre
+                la rama actual, el desarrollador puede ver como afectará al proyecto principal cuando sean integrados.
+                Asi es como puedes generar una rama independiente: Ve a tu nuevo repositorio. Pulsa sobre el boton 
+                principal e ingresa el nombre de tu nueva rama. Click en crear rama.
                 
                 <img src="img/create-branch.png" width="600" alt="create branch"/>
             </p>
 
-            <ul><li><h3>Understanding GitHub commits</h3></li></ul>
+            <ul><li><h3>Comprendiendo los commit de Github</h3></li></ul>
             <p>
                 Los commits son la forma en que se denominan los cambios guardados en GitHub. 
                 Cada vez que cambies el archivo de la rama de características, tendrás que hacer un 
@@ -111,38 +108,33 @@
                 A continuación te explicamos cómo hacer y confirmar un cambio:
             </p>
                 <ol>
-                    <li>Access the feature branch by clicking main and selecting your newly created 
-                        branch from the dropdown.</li>
+                    <li>Accede a tu rama clickando en main y seleccionando tu recien creada rama del "dropdown".</li>
                 </ol>
                 <img src="img/commiy-changes-tep-one-github.png" width="600" alt="commit changes step one"/>
                 <ol start="2">
-                    <li>Click on the “pencil icon” to start editing the file. When you're done, 
-                        write a brief description of the changes you made. Click Commit changes.</li>
+                    <li>Haz click en el icono de lapiz para comenzar a editar el archivo. Cuando termines, escribe 
+                        una breve descripcion de los cambios que has hecho. Click en confirmar cambios.</li>
                 </ol>
                 <img src="img/commit-changes-github.png" width="600" alt="commit changes github"/>
             
 
-            <ul><li><h3>Create pull requests on GitHub</h3></li></ul>
+            <ul><li><h3>Creando solicitudes de subida en GitHub</h3></li></ul>
             <p>
-                To propose the changes you just made to other developers working on the same project, 
-                you must create a pull request. These make it easy to work together on projects, as they 
-                are the main collaboration tool on GitHub.
-                Pull requests allow you to see the differences between the original project and your 
-                feature branch. It is the way to ask your colleagues to review them. If the other 
-                developers approve, they can merge the pull request, which will apply those changes 
-                to the main project.
-                To make a pull request follow these steps:
+                Para proponer los cambios a otros developers trabajando en el mismo proyecto, debes crear una
+                "pull request". Estos facilitan el trabajo en equipo, tambien son la pricipal herramienta de
+                colaboracion de GitHub. Estas solicitudes permiten ver las diferencias entre el proyecto pricipal
+                y una rama. Es una manera de consultar a tus compañeros que revisen tu trabajo. Si el resto de los
+                developers lo aprueban, pueden combinar la solicitud, lo que aplicara esos cambios al main branch.
+                Para hacer una pull request sigue estos pasos:
             </p>
                 
                 <ol>
-                    <li>Click Pull requests -> New pull request. Under Example comparisons, select the 
-                        feature branch you were working on.</li>
+                    <li>Click Pull requests -> Nueva pull request. Por ejemplo, elige la rama en la que estas trabajando.</li>
                 </ol>
                     <img src="img/compare-changes-github.png" width="600" alt="compare changes github"/>
                 <ol start="2">
-                    <li>Review the changes one more time and click Create pull request. On the new page, 
-                        write the title and provide a brief description of what you have worked to promote 
-                        the merger. Click Create pull request.</li>
+                    <li>Revisa los cambios una vez mas y pulsa Crear pull request. En la nueva pagina, escribe el titulo y
+                        una breve descripcion de lo que ha trabajado para promover la fusión. Click en crear pull request.</li>
                 </ol>
                 <img src="img/open-pulll-request-github.png" width="600" alt="open pull request"/>
         </article>
