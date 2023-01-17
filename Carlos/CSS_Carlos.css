@@ -3,6 +3,17 @@
     src: url(Roboto/Roboto-Black.ttf);
 }
 
+h1 {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    color: #fff;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
 h2 {
     margin-bottom: 50px;
     text-align: letra, sans-serif;
@@ -32,17 +43,58 @@ h4 {
     
 }
 
+h5 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    
+}
+
+p{
+    text-align: center;
+}
+
+html {
+    position: relative;
+}
 
 /*Cuerpo de la página*/
 body {
     background-color: rgb(153, 153, 153);
 }
 
-/*Imagenes*/
-section img {
-    display: block;
-    margin: auto;
-    margin-bottom: 40px;
+/*Encabezado*/
+header {
+    position: fixed;
+    width: 100%;
+    padding: 30px 100px;
+    background: linear-gradient(45deg, white, transparent);
+}
+
+#logo-main {
+    font-size: 70px;
+    color: lightskyblue;
+}
+
+.enlace-nav {
+    color: darkslateblue;
+    font-size: 20px;
+}
+
+aside {
+    width: 20%;
+    padding-left: 15px;
+    margin: 220px 50px 0 0;
+    margin-right:50px;
+    margin-right:50px;
+    float: right;
+    font-style: italic;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 20px;
 }
 
 /*Sección*/
@@ -68,24 +120,44 @@ article {
    
 }
 
-/*Parrafo*/
-p {
-    text-align: center;
-}
-
-/*Listas*/
-ul {
-    margin-left: 200px;
-}
-
-/*Videos*/
-iframe {
+section img {
     display: block;
     margin: auto;
     margin-bottom: 40px;
-    
 }
 
-/* #link{
+#link{
     text-align: center;
-} */
+}
+
+/*Tablas*/
+table, th, td {
+    border:1px solid black;
+}
+
+iframe{
+    display:block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+
+
+#seccion-main {
+    width: 70%;
+    margin: 220px 0 280px 50px;
+    margin-bottom: 30%;
+    border: 8px double #888;
+    border-radius: 200px 50px 200px 50px;
+    padding: 70px;
+    background-color: #ccc;
+    float: left;
+}
+
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}

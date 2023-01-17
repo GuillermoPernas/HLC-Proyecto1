@@ -3,22 +3,49 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="authors"
+            content="Guillermo Pernas, Inmaculada Rueda, Pedro Puertas, Carlos Calvo, Jorge Elias Alkhoury">
+        <meta name="description" content="Manual for different tools">
+        
+        <title>PROWEB</title>
+
+        <!-- Enlace a hoja de estilos -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="CSS_Carlos.css">
-        <title></title>
-        <style>
-            table, th, td {
-              border:1px solid black;
-            }
-        </style>
+        <!-- Enlace a hoja de iconos -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <!-- Icono de la pestaña -->
+        <link rel="shortcut icon" href="favicon.svg" />
     </head>
 
     <body>
-        <header>
-            <h1></h1>
+        <header class="d-flex">
+
+            <a href="../index.html" class="d-flex align-items-center me-md-auto text-decoration-none">
+                <i id="logo-main" class="bi bi-github"></i>
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <h1>HLC-Practica1</h1>
+            </a>
+            <nav>
+                <ul class="nav nav-pills pt-4">
+                    <li class="nav-item"><a href="../Pedro/js.html" class="nav-link enlace-nav"
+                            title="JavaScript section by Pedro">JavaScript</a></li>
+                    <li class="nav-item"><a href="Intellij.html" class="nav-link enlace-nav active"
+                            title="Intellij section by Inma">Intellij</a></li>
+                    <li class="nav-item"><a href="../github/github.html" class="nav-link enlace-nav"
+                            title="Github section by Guillermo">Github</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link enlace-nav"
+                            title="nameApartado section by Carlos">Google / Firefox devtools</a></li>
+                    <li class="nav-item"><a href="../framework/Framework.html" class="nav-link enlace-nav"
+                            title="nameApartado section by Jorge">Frameworks: Back End / Front End</a></li>
+                </ul>
+            </nav>
         </header>
-        <section>
+
+        <section id="seccion-main">
 
             <h2>Chrome DevTools</h2>
 
@@ -58,6 +85,90 @@
             </article> -->
             
             
-        </section>    
+        </section>   
+        
+        <aside class="flex-column flex-shrink-0 p-3">
+            <a href="../index.html"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4">Integrantes</span>
+            </a>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="../github/github.html" class="nav-link text-white">
+                        Guillermo
+                    </a>
+                </li>
+                <li>
+                    <a href="Intellij.html" class="nav-link text-white">
+                        Inma
+                    </a>
+                </li>
+                <li>
+                    <a href="../Pedro/js.html" class="nav-link text-white">
+                        Pedro
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link active">
+                        Carlos
+                    </a>
+                </li>
+                <li>
+                    <a href="../framework/Framework.html" class="nav-link text-white">
+                        Jorge
+                    </a>
+                </li>
+            </ul>
+            <hr>
+        </aside>
+        <footer class="bg-dark text-center text-white ">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+               
+                    <h4>Redes Sociales</h4>
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+    
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+    
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="bi bi-google"></i>
+                    </a>
+    
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+    
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+    
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="bi bi-github"></i>
+                    </a>
+              
+            </div>
+    
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <a class="text-white" href="Intellij.html">HLC-Practica1.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
     </body>
 </html>
